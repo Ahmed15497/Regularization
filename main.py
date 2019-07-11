@@ -10,6 +10,9 @@ import pandas as pd
 from scipy.optimize import minimize
 from functions import *
 
+
+
+
 file_data = 'ex2data2.txt'
 dataset = pd.read_csv(file_data,sep = ',' , header = None)
 del file_data
